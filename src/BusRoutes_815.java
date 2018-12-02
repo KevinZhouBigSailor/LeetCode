@@ -16,17 +16,15 @@ public class BusRoutes_815 {
         Set<Integer> targets = new HashSet<>();
         Queue<Point> queue = new ArrayDeque<>();
 
-        for (int i = 0; i < N; i++) {
-            for (int j = i + 1; i < N; j++) {
+        for (int i = 0; i < N; ++i)
+            for (int j = i + 1; i < N; ++j)
                 if (intersect(routes[i], routes[j])) {
                     graph.get(i).add(j);
                     graph.get(j).add(i);
                 }
-            }
-        }
 
         for (int i = 0; i < N; i++) {
-            if (Arrays.binarySearch(routes[i], S) > 0) {
+            if (Arrays.binarySearch(routes[i], S) >= 0) {
                 seens.add(i);
                 queue.offer(new Point(i, 0));
             }
