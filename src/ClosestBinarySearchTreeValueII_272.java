@@ -5,33 +5,46 @@ import java.util.Stack;
 
 public class ClosestBinarySearchTreeValueII_272 {
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
+        Stack<TreeNode> smaller = new Stack<>();
+        Stack<TreeNode> larger = new Stack<>();
+        pushSmaller(root, target, smaller);
+        pushLarger(root, target, larger);
+
         List<Integer> res = new ArrayList<>();
-
-        Stack<Integer> s1 = new Stack<>();
-        Stack<Integer> s2 = new Stack<>();
-
-        inorder(root, s1, target, false);
-        inorder(root, s2, target, true);
-
-        while (k-- > 0) {
-            if (s1.isEmpty()) {
-                res.add(s2.pop());
-            } else if (s2.isEmpty()) {
-                res.add(s1.pop());
-            } else if (Math.abs(s1.peek() - target) > Math.abs(s2.peek() - target)) {
-                res.add(s2.pop());
+        TreeNode cur = null;
+        while (res.size() < k) {
+            if (smaller.isEmpty() || (!larger.isEmpty() && larger.peek().val - target < target - smaller.peek().val)) {
+                cur = larger.pop();
+                res.add(cur.val);
+                pushLarger(cur.right, target, larger);
             } else {
-                res.add(s1.pop());
+                cur = smaller.pop();
+                res.add(cur.val);
+                pushSmaller(cur.left, target, smaller);
             }
         }
         return res;
     }
 
-    public void inorder(TreeNode root, Stack<Integer> stack, double target, boolean reverse) {
-        if (root == null) return;
-        inorder(reverse ? root.right : root.left, stack, target, reverse);
-        if ((reverse && root.val <= target) || (!reverse && root.val > target)) return;
-        stack.push(root.val);
-        inorder(reverse ? root.left : root.right, stack, target, reverse);
+    private void pushSmaller(TreeNode node, double target, Stack<TreeNode> stack) {
+        while (node != null) {
+            if (node.val < target) {
+                stack.push(node);
+                node = node.right;
+            } else {
+                node = node.left;
+            }
+        }
+    }
+
+    private void pushLarger(TreeNode node, double target, Stack<TreeNode> stack) {
+        while (node != null) {
+            if (node.val >= target) {
+                stack.push(node);
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+        }
     }
 }
