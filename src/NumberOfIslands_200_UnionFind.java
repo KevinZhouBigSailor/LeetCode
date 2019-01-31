@@ -1,5 +1,5 @@
 public class NumberOfIslands_200_UnionFind {
-    int[][] direction = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
@@ -11,7 +11,7 @@ public class NumberOfIslands_200_UnionFind {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == '1') {
-                    for (int[] d : direction) {
+                    for (int[] d : directions) {
                         int x = i + d[0];
                         int y = j + d[1];
                         if (x >= 0 && x < rows && y >= 0 && y < cols && grid[x][y] == '1') {
