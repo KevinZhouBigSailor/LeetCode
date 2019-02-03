@@ -17,9 +17,9 @@ public class WordSearchII_212 {
         char c = board[i][j];
         if (c == '#' || p.children[c - 'a'] == null) return;
         p = p.children[c - 'a'];
-        if (p.isWord) {
+        if (p.isWord) { // found one
             res.add(p.word);
-            p.isWord = false;
+            p.isWord = false; // de-duplicate
         }
         board[i][j] = '#';
         if (i > 0) dfs(board, p, i - 1, j, res);
