@@ -1,7 +1,7 @@
 public class WiggleSortII_324 {
     public void wiggleSort(int[] nums) {
         KthLargestElementinanArray_215 instance = new KthLargestElementinanArray_215();
-        int median = instance.findKthLargest(nums, (nums.length + 1) / 2);
+        int median = instance.findKthLargest(nums, (nums.length + 1) >> 1);
         int n = nums.length;
 
         int left = 0, i = 0, right = n - 1;
