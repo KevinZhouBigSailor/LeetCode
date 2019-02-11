@@ -37,4 +37,10 @@ public class IPTOCIDR_751 {
         }
         return ans;
     }
+
+
+    public static void main(String[] args) {
+        IPTOCIDR_751 instance = new IPTOCIDR_751();
+        instance.ipToCIDR("255.0.0.7", 10);
+    }
 }
