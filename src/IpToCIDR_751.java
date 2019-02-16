@@ -1,14 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class IPTOCIDR_751 {
+public class IpToCIDR_751 {
     public List<String> ipToCIDR(String ip, int n) {
         long start = ipToLong(ip);
-        List<String> ans = new ArrayList();
+        List<String> ans = new ArrayList<>();
         while (n > 0) {
-            int mask = Math.max(33 - bitLength(Long.lowestOneBit(start)),
-                    33 - bitLength(n));
-            ans.add(longToIP(start) + "/" + mask);
+            int mask = Math.max(33 - bitLength(Long.lowestOneBit(start)), 33 - bitLength(n));
+            ans.add(longToIp(start) + "/" + mask);
             start += 1 << (32 - mask);
             n -= 1 << (32 - mask);
         }
@@ -17,13 +16,14 @@ public class IPTOCIDR_751 {
 
     private long ipToLong(String ip) {
         long ans = 0;
-        for (String x : ip.split("\\.")) {
-            ans = 256 * ans + Integer.valueOf(x);
+        String[] ips = ip.split("\\.");
+        for (String x : ips) {
+            ans = ans * 256 + Integer.valueOf(x);
         }
         return ans;
     }
 
-    private String longToIP(long x) {
+    private String longToIp(long x) {
         return String.format("%s.%s.%s.%s",
                 x >> 24, (x >> 16) % 256, (x >> 8) % 256, x % 256);
     }
@@ -32,15 +32,9 @@ public class IPTOCIDR_751 {
         if (x == 0) return 1;
         int ans = 0;
         while (x > 0) {
-            x >>= 1;
             ans++;
+            x >>= 1;
         }
         return ans;
-    }
-
-
-    public static void main(String[] args) {
-        IPTOCIDR_751 instance = new IPTOCIDR_751();
-        instance.ipToCIDR("255.0.0.7", 10);
     }
 }
