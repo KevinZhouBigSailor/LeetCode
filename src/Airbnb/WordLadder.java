@@ -2,7 +2,7 @@ package Airbnb;
 
 import java.util.*;
 
-public class WordLadder {
+public class  WordLadder {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (wordList == null || wordList.size() == 0)
             return 0;
