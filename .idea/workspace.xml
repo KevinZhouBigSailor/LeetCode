@@ -18,36 +18,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="WordLadder_127.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordLadder_127.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
+=======
+      <file leaf-file-name="ThreeSumClosest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/ThreeSumClosest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SlidingPuzzle_773.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingPuzzle_773.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="930">
               <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding />
+=======
+      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/WordLadder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="PyramidTransitionMatrix_756.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PyramidTransitionMatrix_756.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
               <folding />
+=======
+      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/LongestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AlienDictionary_269.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlienDictionary_269.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,45 +81,89 @@
               <folding>
                 <element signature="e#1339#1350#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="LongestPalindromicSubstring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedIn/LongestPalindromicSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AlienDictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Airbnb/AlienDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="RomantoInteger_13.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RomantoInteger_13.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Airbnb/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding />
+=======
+      <file leaf-file-name="PrintBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedIn/PrintBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+              </folding>
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SlidingPuzzle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Airbnb/SlidingPuzzle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
               <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding />
+=======
+      <file leaf-file-name="BinaryTreePaths_257.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTreePaths_257.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SlidingPuzzle_BFS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Airbnb/SlidingPuzzle_BFS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
               <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+=======
+      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/WordSearchII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,22 +171,38 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SlidingPuzzleAStart_773.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingPuzzleAStart_773.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1275">
               <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
               <folding />
+=======
+      <file leaf-file-name="TrieNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/TrieNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SimplifyPath_71.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimplifyPath_71.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Airbnb/TrappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </state>
           </provider>
         </entry>
@@ -180,6 +265,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/GrayCode_89.java" />
         <option value="$PROJECT_DIR$/src/ConstructBinaryTreefromString_536.java" />
         <option value="$PROJECT_DIR$/src/FindAllAnagramsInaString_438.java" />
@@ -210,6 +296,8 @@
         <option value="$PROJECT_DIR$/src/PalindromeLinkedList_234.java" />
         <option value="$PROJECT_DIR$/src/MinStack_155.java" />
         <option value="$PROJECT_DIR$/src/InsertDeleteGetRandom_380.java" />
+=======
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
         <option value="$PROJECT_DIR$/src/DecodeWays_91.java" />
         <option value="$PROJECT_DIR$/src/SerializeandDeserializeBST_449.java" />
         <option value="$PROJECT_DIR$/src/LowestCommonAncestorofaBinarySearchTree_235.java" />
@@ -226,19 +314,57 @@
         <option value="$PROJECT_DIR$/src/BasicCalculatorIII_772.java" />
         <option value="$PROJECT_DIR$/src/CanIWin_464.java" />
         <option value="$PROJECT_DIR$/src/BusRoutes_815.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/WordBreak_139.java" />
         <option value="$PROJECT_DIR$/src/LRUCache_146.java" />
         <option value="$PROJECT_DIR$/src/SlidingPuzzle_773.java" />
         <option value="$PROJECT_DIR$/src/Airbnb/SlidingPuzzle_DFS.java" />
         <option value="$PROJECT_DIR$/src/Airbnb/SlidingPuzzle_BFS.java" />
+=======
+        <option value="$PROJECT_DIR$/src/IPTOCIDR_751.java" />
+        <option value="$PROJECT_DIR$/src/IpToCIDR_751.java" />
+        <option value="$PROJECT_DIR$/src/FlattenNestedListIterator_341.java" />
+        <option value="$PROJECT_DIR$/src/PyramidTransitionMatrix_756.java" />
+        <option value="$PROJECT_DIR$/src/PourWater_755.java" />
+        <option value="$PROJECT_DIR$/src/AlienDictionary_269.java" />
+        <option value="$PROJECT_DIR$/src/LongestIncreasingSubsequence_300.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/PourWater.java" />
+        <option value="$PROJECT_DIR$/src/WordSearchII_212.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/CheapestFlightWithKStops.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/WiggleSortII.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/FlattenNestedListIterator.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/TrieNode.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/PalindromePairs.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/Interval.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/EmployeeFreeTime.java" />
+        <option value="$PROJECT_DIR$/src/SlidingPuzzleAStart_773.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/SlidingPuzzle.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/WordLadder_127.java" />
+        <option value="$PROJECT_DIR$/src/Twitter/FindMedianFromDataStream.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/PyramidTransitionMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/FirstMissingPositive.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/ThreeSumClosest.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/Flatten2DVector.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/ConsecutiveNumbersSum.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/AlienDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Airbnb/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/LinkedIn/LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/LinkedIn/PrintBinaryTree.java" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="y" value="-82" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-300" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,10 +382,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +405,11 @@
               <item name="LeetCodeJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodeJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
             </path>
             <path>
               <item name="LeetCodeJ" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +421,12 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,6 +684,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -576,6 +716,38 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-1920" y="-300" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291262" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22897384" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21066667" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14962727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2995025" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info id="Nl-Palette" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3251509" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -709,6 +881,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/H_Index_274.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -745,6 +918,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WiggleSort_280.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/NestedInteger.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
@@ -758,6 +934,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/UglyNumberII_264.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -766,6 +943,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Two_Sum_1.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/PalindromePairs_336.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -810,6 +990,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/NumberofDistinctIslands_694.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -818,6 +999,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberofDistinctIslandsII_711.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/CombinationSum_39.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -861,6 +1045,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/BoundaryofBinaryTree_545_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -869,6 +1054,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStockIV_188.java">
+=======
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
@@ -921,6 +1109,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/BusRoutes_815.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -932,6 +1121,9 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/lang/String.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Flatten2DVector_251.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="1419" column="19" lean-forward="false" selection-start-line="1419" selection-start-column="19" selection-end-line="1419" selection-end-column="19" />
@@ -949,6 +1141,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/WordSearchII_212.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -958,6 +1151,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TrappingRainWaterII_407.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/PyramidTransitionMatrix_756.java">
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
@@ -973,6 +1169,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/AmazonOA_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1018,11 +1215,56 @@
         <state relative-caret-position="510">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/ThreeSumClosest_16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/FlattenNestedListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/ConsecutiveNumbersSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/EmployeeFreeTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordLadder_127.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="450">
           <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
@@ -1058,29 +1300,133 @@
         <state relative-caret-position="326">
           <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
           <folding />
+=======
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlienDictionary_269.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="1200">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
           <folding>
-            <element signature="e#1339#1350#0" expanded="true" />
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Airbnb/AlienDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twitter/FindMedianFromDataStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/CheapestFlightWithKStops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/PourWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/SlidingPuzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/PyramidTransitionMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/WiggleSortII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlienDictionary_269.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="570">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+=======
+        <state relative-caret-position="345">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
+          <folding>
+            <element signature="e#1339#1350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/AlienDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Airbnb/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="345">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding />
@@ -1101,6 +1447,49 @@
           <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="585">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Airbnb/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedIn/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RomantoInteger_13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTreePaths_257.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedIn/PrintBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+>>>>>>> fc15f1db72d28859cb9928bdc175b7e207500d0a
           </folding>
         </state>
       </provider>
