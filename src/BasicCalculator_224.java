@@ -13,7 +13,6 @@ public class BasicCalculator_224 {
             char c = s.charAt(i);
             if (Character.isDigit(c)) {
                 number = 10 * number + (int) (c - '0');
-                ;
             } else if (c == '+') {
                 result += sign * number;
                 number = 0;
