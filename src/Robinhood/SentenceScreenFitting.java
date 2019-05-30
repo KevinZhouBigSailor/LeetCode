@@ -1,5 +1,10 @@
 package Robinhood;
 
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class SentenceScreenFitting {
     public int wordsTyping(String[] sentence, int rows, int cols) {
         String s = String.join(" ", sentence) + " ";
@@ -15,5 +20,42 @@ public class SentenceScreenFitting {
             }
         }
         return start / s.length();
+    }
+
+    public List<String> wordWrap(String input, Integer k) {
+        List<String> res = new ArrayList<>();
+        String[] words = input.split("\\s+");
+        int curK = k;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+            if (word.length() > k) return null;
+            if (curK < word.length()) {
+                res.add(sb.toString());
+                curK = k;
+                sb = new StringBuilder();
+            }
+            curK -= (word.length() + 1);
+            sb.append(word);
+            if (curK > 0 && i != words.length - 1) {
+                sb.append(" ");
+            }
+
+        }
+        res.add(sb.toString());
+
+        return res;
+    }
+
+    @Test
+    public void test() {
+        String input = "his dog chases her cat";
+        System.out.println(wordWrap(input, 15));
+    }
+
+    public static void main(String[] args) {
+        String input = "his dog chases her cat";
+        SentenceScreenFitting sentenceScreenFitting = new SentenceScreenFitting();
+        System.out.println(sentenceScreenFitting.wordWrap(input, 15));
     }
 }

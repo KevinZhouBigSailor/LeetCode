@@ -8,7 +8,7 @@ public class SpiralMatrixII {
             return matrix;
         }
 
-        int rowBegin = 0, rowEnd = matrix.length - 1, colBegin = 0, colEnd = matrix[0].length - 1;
+        int rowBegin = 0, rowEnd = n - 1, colBegin = 0, colEnd = n - 1;
         int num = 1;
 
         while (rowBegin <= rowEnd && colBegin <= colEnd) {
