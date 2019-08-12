@@ -1,6 +1,6 @@
 package Twitter;
 
-public class RobotBoundedInCircle_1041 {
+public class RobotBoundedInCircle {
     public boolean isRobotBounded(String instructions) {
         int x = 0, y = 0, i = 0, d[][] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         for (int j = 0; j < instructions.length(); ++j)
