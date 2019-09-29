@@ -1,6 +1,8 @@
 package sumoLogic;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class SatisfiabilityOfEqualityEquations {
@@ -23,14 +25,14 @@ public class SatisfiabilityOfEqualityEquations {
         for (int start = 0; start < 26; ++start) {
             if (color[start] == 0) {
                 t++;
-                Stack<Integer> stack = new Stack();
-                stack.push(start);
-                while (!stack.isEmpty()) {
-                    int node = stack.pop();
+                Queue<Integer> queue = new ArrayDeque<>();
+                queue.offer(start);
+                while (!queue.isEmpty()) {
+                    int node = queue.poll();
                     for (int nei : graph[node]) {
                         if (color[nei] == 0) {
                             color[nei] = t;
-                            stack.push(nei);
+                            queue.offer(nei);
                         }
                     }
                 }
