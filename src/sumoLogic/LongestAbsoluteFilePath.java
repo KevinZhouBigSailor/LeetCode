@@ -11,9 +11,19 @@ public class LongestAbsoluteFilePath {
         stack.push(0); // "dummy" length
         int maxLen = 0;
         for (String s : input.split("\n")) {
-            int level = s.lastIndexOf("\t") + 1; //number of "\t"
-            while (level + 1 < stack.size()) stack.pop();  // find parent;
-            int len = stack.peek() + s.length() - level + 1; // remove "/t", add"/"
+            /*
+            numOfTabs is the number of "\t", numOfTabs = 0
+            when "\t" is not found, because s.lastIndexOf("\t") returns -1.
+            So normally, the first parent "dir" have numOfTabs 0.
+            */
+            int numOfTabs = s.lastIndexOf("\t") + 1; //number of "\t"
+            /* Level is defined as numOfTabs + 1.
+            For example, in "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext",
+            dir is level 1, subdir1 and subdir2 are level 2, file.ext is level3
+            */
+            int level = numOfTabs + 1;
+            while (level < stack.size()) stack.pop();  // find parent;
+            int len = stack.peek() + s.length() - numOfTabs + 1; // remove "/t", add"/"
             stack.push(len);
             if (s.contains(".")) maxLen = Math.max(maxLen, len - 1);
         }
