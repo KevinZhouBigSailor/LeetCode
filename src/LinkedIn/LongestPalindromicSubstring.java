@@ -23,4 +23,10 @@ public class LongestPalindromicSubstring {
         }
         return k - j - 1;
     }
+
+    public static void main(String[] args) {
+        String input = "babad";
+        LongestPalindromicSubstring instance = new LongestPalindromicSubstring();
+        instance.longestPalindrome(input);
+    }
 }

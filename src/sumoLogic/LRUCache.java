@@ -1,6 +1,7 @@
 package sumoLogic;
 
 import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class LRUCache {
     class DLinkedNode {
@@ -47,8 +48,8 @@ public class LRUCache {
         return res;
     }
 
-    private Hashtable<Integer, DLinkedNode>
-            cache = new Hashtable<Integer, DLinkedNode>();
+    private ConcurrentHashMap<Integer, DLinkedNode>
+            cache = new ConcurrentHashMap<Integer, DLinkedNode>();
     private int count;
     private int capacity;
     private DLinkedNode head, tail;
