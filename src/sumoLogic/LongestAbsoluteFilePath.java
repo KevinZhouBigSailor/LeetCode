@@ -25,7 +25,7 @@ public class LongestAbsoluteFilePath {
             while (level < stack.size()) stack.pop();  // find parent;
             int len = stack.peek() + s.length() - numOfTabs + 1; // remove "/t", add"/"
             stack.push(len);
-            if (s.contains(".")) maxLen = Math.max(maxLen, len - 1);
+            if (s.contains(".")) maxLen = Math.max(maxLen, len - 1); // remove the last "/"
         }
         return maxLen;
     }
