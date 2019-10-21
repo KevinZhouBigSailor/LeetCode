@@ -40,4 +40,9 @@ public class LongestAbsoluteFilePath {
         }
         return maxLen;
     }
+
+    public static void main(String[] args) {
+        LongestAbsoluteFilePath instance = new LongestAbsoluteFilePath();
+        instance.lengthLongestPath("dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext");
+    }
 }
