@@ -1,7 +1,5 @@
 package Robinhood;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,12 +57,5 @@ public class TextJustification {
             index = last;
         }
         return lines;
-    }
-
-    @Test
-    public void test() {
-        TextJustification textJustification = new TextJustification();
-        String[] words = {"What", "must", "be", "acknowledgment", "shall", "be"};
-        System.out.println(textJustification.fullJustify(words, 16));
     }
 }

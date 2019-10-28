@@ -1,7 +1,5 @@
 package Robinhood;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,11 +45,6 @@ public class SentenceScreenFitting {
         return res;
     }
 
-    @Test
-    public void test() {
-        String input = "his dog chases her cat";
-        System.out.println(wordWrap(input, 15));
-    }
 
     public static void main(String[] args) {
         String input = "his dog chases her cat";

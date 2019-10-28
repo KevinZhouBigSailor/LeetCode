@@ -1,6 +1,6 @@
 package Robinhood;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -85,7 +85,7 @@ public class ReturnOnInvestments {
         }
     }
 
-    @Test
+    /*@Test
     public void test() {
         Stock sell1 = new Stock("AAPL", 1, 1);
         Stock sell2 = new Stock("AAPL", 1, 3);
@@ -100,9 +100,9 @@ public class ReturnOnInvestments {
         //buys.add(buy2);
 
         System.out.println(tradeCounts(sells, buys));
-    }
+    }*/
 
-    @Test
+    /*@Test
     public void maintest() {
         ReturnOnInvestments investments = new ReturnOnInvestments();
         List<String> inputOnes = new ArrayList<>();
@@ -119,5 +119,5 @@ public class ReturnOnInvestments {
         inputTwos.add("bought 5 TLSA at 50");
 
         System.out.println(investments.myReturn(inputOnes, inputTwos));
-    }
+    }*/
 }
