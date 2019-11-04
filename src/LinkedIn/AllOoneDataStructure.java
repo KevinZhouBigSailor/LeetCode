@@ -1,3 +1,5 @@
+package LinkedIn;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -5,8 +7,12 @@ import java.util.Set;
 
 /**
  * Created by zzhou on 1/26/2018.
+ * Main idea is to maintain a list of Bucket's, each Bucket contains all keys with the same count.
+ * <p>
+ * head and tail can ensure both getMaxKey() and getMaxKey() be done in O(1).
+ * keyCountMap maintains the count of keys, countBucketMap provides O(1) access to a specific Bucket with given count. Deleting and adding a Bucket in the Bucket list cost O(1), so both inc() and dec() take strict O(1) time.
  */
-public class AllOoneDataStructure_432 {
+public class AllOoneDataStructure {
 
     private Bucket head;
     private Bucket tail;
@@ -31,7 +37,7 @@ public class AllOoneDataStructure_432 {
     /**
      * Initialize your data structure here.
      */
-    public AllOoneDataStructure_432() {
+    public AllOoneDataStructure() {
         head = new Bucket(Integer.MIN_VALUE);
         tail = new Bucket(Integer.MAX_VALUE);
         head.next = tail;
