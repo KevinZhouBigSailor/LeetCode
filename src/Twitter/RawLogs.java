@@ -54,6 +54,11 @@ class RawLog {
     Integer userId;
     Long TimeStamp;
 
+    public RawLog (Integer userId, Long TimeStamp) {
+        this.userId = userId;
+        this.TimeStamp = TimeStamp;
+    }
+
     @Override
     public boolean equals(Object o) {
         return o.hashCode() == this.hashCode();
