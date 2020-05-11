@@ -1,5 +1,6 @@
 package Chime;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -62,15 +63,27 @@ public class OrgChart {
         }
         return sb.toString();*/
         // dfs
-        List<List<Employee>> list = new ArrayList<>();
+        /*List<List<Employee>> list = new ArrayList<>();
         dfs(list, new ArrayList<Employee>(), graph, 0);
-        for(int i=0; i< list.size();i++) {
+        for (int i = 0; i < list.size(); i++) {
             List<Employee> employees = list.get(i);
-            for(Employee employee: employees) {
+            for (Employee employee : employees) {
                 System.out.println(employee.getName());
             }
-        }
+        }*/
+        // preorder
+        Employee Ann = new Employee(4, 0, "Ann");
+        preorderTravese(graph, 0, Ann, sb);
         return sb.toString();
+    }
+
+    private void preorderTravese(ArrayList[] graph, int indent, Employee employee, StringBuilder sb) {
+        sb.append(indent);
+        sb.append(employee.getName());
+        for (int i = 0; i < graph[employee.getId()].size(); i++) {
+            Employee nextEmployee = (Employee) graph[employee.getId()].get(i);
+            preorderTravese(graph, indent + 1, nextEmployee, sb);
+        }
     }
 
     private Employee convertToEmployee(String org) {
