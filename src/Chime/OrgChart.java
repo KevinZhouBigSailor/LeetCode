@@ -49,7 +49,8 @@ public class OrgChart {
             Employee curEmployee = employeeList.get(i);
             if (degree[curEmployee.getId()] == 0) queue.add(curEmployee);
         }
-        while (queue.size() != 0) {
+        // bfs
+        /*while (queue.size() != 0) {
             Employee employee = queue.poll();
             sb.append("-" + employee.getName());
             for (int i = 0; i < graph[employee.getId()].size(); i++) {
@@ -59,14 +60,36 @@ public class OrgChart {
                     queue.add(pointer);
             }
         }
+        return sb.toString();*/
+        // dfs
+        List<List<Employee>> list = new ArrayList<>();
+        dfs(list, new ArrayList<Employee>(), graph, 0);
+        for(int i=0; i< list.size();i++) {
+            List<Employee> employees = list.get(i);
+            for(Employee employee: employees) {
+                System.out.println(employee.getName());
+            }
+        }
         return sb.toString();
-
     }
 
     private Employee convertToEmployee(String org) {
         String[] attributes = org.split(":");
         return new Employee(Integer.valueOf(
                 attributes[0]), Integer.valueOf(attributes[2]), attributes[1]);
+    }
+
+    private void dfs(List<List<Employee>> list, List<Employee> tempList, ArrayList[] graph, int employeeId) {
+        if (graph[employeeId].size() == 0) {
+            list.add(new ArrayList<>(tempList));
+        } else {
+            for (int i = 0; i < graph[employeeId].size(); i++) {
+                Employee employee = (Employee) graph[employeeId].get(i);
+                tempList.add(employee);
+                dfs(list, tempList, graph, employee.getId());
+                tempList.remove(tempList.size() - 1);
+            }
+        }
     }
 
     public static void main(String[] args) {
