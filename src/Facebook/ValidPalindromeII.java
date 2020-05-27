@@ -1,4 +1,6 @@
-public class ValidPalindromeII_680 {
+package Facebook;
+
+public class ValidPalindromeII {
     public boolean isPalindrome(String s, int i, int j) {
         for (int k = i; k <= i + (j - i) / 2; k++) {
             if (s.charAt(k) != s.charAt(j - k + i)) return false;
@@ -19,7 +21,7 @@ public class ValidPalindromeII_680 {
     }
 
     public static void main(String[] args) {
-        ValidPalindromeII_680 instance = new ValidPalindromeII_680();
+        ValidPalindromeII instance = new ValidPalindromeII();
         String s = "abc";
         System.out.println(instance.validPalindrome(s));
     }
