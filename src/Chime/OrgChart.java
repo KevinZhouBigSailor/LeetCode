@@ -29,8 +29,8 @@ public class OrgChart {
         String[] orgs = input.split(",");
         int employeeNumber = orgs.length;
         ArrayList[] graph = new ArrayList[employeeNumber + 1];
-        int[] degree = new int[employeeNumber + 1];
-        Queue<Employee> queue = new LinkedList();
+        /*int[] degree = new int[employeeNumber + 1];
+        Queue<Employee> queue = new LinkedList();*/
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < employeeNumber + 1; i++) {
             graph[i] = new ArrayList<Employee>();
@@ -42,14 +42,14 @@ public class OrgChart {
         // Generate topo graph
         for (int i = 0; i < employeeNumber; i++) {
             Employee curEmployee = employeeList.get(i);
-            if (curEmployee.getManagerId() != 0) degree[curEmployee.getId()]++;
+            // if (curEmployee.getManagerId() != 0) degree[curEmployee.getId()]++;
             graph[curEmployee.getManagerId()].add(curEmployee);
         }
 
-        for (int i = 0; i < employeeNumber; i++) {
+        /*for (int i = 0; i < employeeNumber; i++) {
             Employee curEmployee = employeeList.get(i);
             if (degree[curEmployee.getId()] == 0) queue.add(curEmployee);
-        }
+        }*/
         // bfs
         /*while (queue.size() != 0) {
             Employee employee = queue.poll();

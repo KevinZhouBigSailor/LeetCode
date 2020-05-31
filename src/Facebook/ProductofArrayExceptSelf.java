@@ -1,9 +1,9 @@
-package leetCode;
+package Facebook;
 
 /**
  * Created by zzhou on 1/17/2018.
  */
-public class ProductofArrayExceptSelf_238 {
+public class ProductofArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         /*
         Numbers:     2    3    4     5
@@ -25,7 +25,7 @@ public class ProductofArrayExceptSelf_238 {
     }
 
     public static void main(String[] args) {
-        ProductofArrayExceptSelf_238 instance = new ProductofArrayExceptSelf_238();
+        ProductofArrayExceptSelf instance = new ProductofArrayExceptSelf();
         int[] nums = {1, 2, 3, 4};
         instance.productExceptSelf(nums);
     }
