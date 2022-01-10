@@ -1,7 +1,5 @@
 package LinkedIn;
 
-import javafx.util.Pair;
-
 import java.util.*;
 
 public class WordLadder {
@@ -51,7 +49,7 @@ public class WordLadder {
         }
         return res;
     }
-
+    /*
     class Solution {
 
         private int L;
@@ -151,4 +149,5 @@ public class WordLadder {
             return 0;
         }
     }
+    */
 }
