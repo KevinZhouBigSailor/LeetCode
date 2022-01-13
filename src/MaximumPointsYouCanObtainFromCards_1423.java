@@ -1,5 +1,3 @@
-package Google;
-
 public class MaximumPointsYouCanObtainFromCards_1423 {
     public int maxScore(int[] cardPoints, int k) {
         int startingIndex = 0;

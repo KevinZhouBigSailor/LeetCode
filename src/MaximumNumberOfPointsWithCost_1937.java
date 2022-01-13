@@ -1,5 +1,3 @@
-package Google;
-
 /**
  * https://leetcode.com/problems/maximum-number-of-points-with-cost/discuss/1344908/C++JavaPython-3-DP-Explanation-with-pictures.
  */
