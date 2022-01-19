@@ -1,4 +1,5 @@
 package Flexport.CardGame;
 
-public class DiscountEngine {
+public interface DiscountEngine {
+    boolean calculateDiscount(Card[] cards);
 }
