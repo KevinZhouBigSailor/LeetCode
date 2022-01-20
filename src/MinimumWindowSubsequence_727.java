@@ -1,4 +1,17 @@
 public class MinimumWindowSubsequence_727 {
+    /**
+     * 2-steps:
+     *
+     * Find a subsequence in S that contains T, and return ending index in S
+     * Improve that subsequence by searching backwards from right-left to find best starting index in S
+     * e.g.
+     * i = 0 1 2 3 4 5 6 7 8 9
+     * S = a b a c b c d f e g
+     * T = bcde
+     * find subsequence - bacbcdfe, end = 8
+     * improve subsequence - bcdfe, start = 4
+     * length = 5
+     */
     public String minWindow(String s1, String s2) {
         char[] s = s1.toCharArray(), t = s2.toCharArray();
         String res = "";
