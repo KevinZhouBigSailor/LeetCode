@@ -1,6 +1,6 @@
 package Flexport.CardGame;
 
-public interface Card {
+public interface Token {
 
     int getValue();
 

@@ -1,12 +1,14 @@
 package Flexport.CardGame;
 
-public abstract class AbstractCard implements Card {
+import java.util.Objects;
+
+public abstract class AbstractToken implements Token {
 
     private String color;
 
     private int value;
 
-    public AbstractCard(String color, int value) {
+    public AbstractToken(String color, int value) {
         this.color = color;
         this.value = value;
     }
@@ -23,6 +25,19 @@ public abstract class AbstractCard implements Card {
     @Override
     public String getColor() {
         return color;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AbstractToken that = (AbstractToken) o;
+        return value == that.value && color.equals(that.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(color, value);
     }
 
     public void setValue(int value) {
