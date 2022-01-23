@@ -10,16 +10,16 @@ public class MatchMaker {
         this.discountEngine = discountEngine;
     }
 
-    public boolean carPurchase(Card card, Person person) {
+    public boolean canPurchase(Card card, Person person) {
         return canPurchase(card.getRequiredTokens(), person);
     }
 
-    public boolean canPurchase(List<Token> requiredTokens, Person person) {
+    private boolean canPurchase(List<Token> requiredTokens, Person person) {
         Map<String, List<Token>> personTokenMap = getPersonTokenMap(person);
         Map<String, List<Token>> requiredTokenMap = groupTokens(requiredTokens);
-        for (String color : personTokenMap.keySet()) {
-            if (personTokenMap.get(color).size() >
-                    requiredTokenMap.getOrDefault(color, new ArrayList<>()).size()) {
+        for (String color : requiredTokenMap.keySet()) {
+            if (personTokenMap.getOrDefault(color, new ArrayList<>()).size() <
+                    requiredTokenMap.get(color).size()) {
                 return false;
             }
         }
