@@ -1,5 +1,7 @@
 package Flexport.CardGame;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -26,7 +28,11 @@ public class MatchMaker {
         return true;
     }
 
-    public boolean makePurchase(List<Token> requiredTokens, Person person) throws Exception {
+    public boolean makePurchase(@NotNull Card card, Person person){
+        return makePurchase(card.getRequiredTokens(), person);
+    }
+
+    private boolean makePurchase(List<Token> requiredTokens, Person person) {
         try {
             if (canPurchase(requiredTokens, person)) {
                 Map<String, List<Token>> requiredTokenMap = groupTokens(requiredTokens);

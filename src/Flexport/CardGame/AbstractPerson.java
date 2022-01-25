@@ -25,4 +25,9 @@ public class AbstractPerson implements Person {
             this.tokens.removeAll(tokens);
         }
     }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(getTokens().toArray());
+    }
 }

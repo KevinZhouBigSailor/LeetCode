@@ -3,11 +3,8 @@ package Flexport.CardGame;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class TrueCard implements Card {
-    public TrueCard() {
-        List<Token> requiredTokens = new ArrayList<>();
-        requiredTokens.add(new RedToken());
-        requiredTokens.add(new BlueToken());
+public class TrueCard implements Card {
+    public TrueCard(final List<Token> requiredTokens) {
         this.requiredTokens.addAll(requiredTokens);
     }
 
