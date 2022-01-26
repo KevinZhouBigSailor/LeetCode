@@ -1,7 +1,5 @@
 package Flexport.CardGame;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -28,7 +26,7 @@ public class MatchMaker {
         return true;
     }
 
-    public boolean makePurchase(@NotNull Card card, Person person){
+    public boolean makePurchase(Card card, Person person){
         return makePurchase(card.getRequiredTokens(), person);
     }
 

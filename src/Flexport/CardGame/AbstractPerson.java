@@ -22,7 +22,9 @@ public class AbstractPerson implements Person {
     @Override
     public void deleteTokens(List<Token> tokens) {
         synchronized (this) {
-            this.tokens.removeAll(tokens);
+            for (Token token : tokens) {
+                this.tokens.remove(token);
+            }
         }
     }
 
