@@ -3,7 +3,7 @@ package Facebook;
 /**
  * Created by zzhou on 4/10/2017.
  */
-public class AddStrings {
+public class AddStrings_415 {
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();
         int carry = 0;
@@ -17,7 +17,7 @@ public class AddStrings {
     }
 
     public static void main (String[] args) {
-        AddStrings obj = new AddStrings();
+        AddStrings_415 obj = new AddStrings_415();
         System.out.println(obj.addStrings("123","928"));
     }
 }
