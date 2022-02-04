@@ -1,3 +1,7 @@
+import Facebook.ExclusiveTimeOfFunctions_636;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.List;
 import java.util.Stack;
 
@@ -23,5 +27,40 @@ public class ExeclusiveTimeOfFunctions_636 {
             i++;
         }
         return res;
+    }
+
+    public int[] exclusiveTime2(int n, List<String> logs) {
+        Deque<ExclusiveTimeOfFunctions_636.Log> stack = new ArrayDeque<>();
+        int[] result = new int[n];
+        int duration = 0;
+        for (String content : logs) {
+            ExclusiveTimeOfFunctions_636.Log log = new ExclusiveTimeOfFunctions_636.Log(content);
+            if (log.isStart) {
+                stack.push(log);
+            } else {
+                ExclusiveTimeOfFunctions_636.Log top = stack.pop();
+                result[top.id] += (log.time - top.time + 1 - top.subDuration);
+                if (!stack.isEmpty()) {
+                    stack.peek().subDuration += (log.time - top.time + 1);
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public static class Log {
+        public int id;
+        public boolean isStart;
+        public int time;
+        public int subDuration;
+
+        public Log(String content) {
+            String[] strs = content.split(":");
+            id = Integer.valueOf(strs[0]);
+            isStart = strs[1].equals("start");
+            time = Integer.valueOf(strs[2]);
+            subDuration = 0;
+        }
     }
 }
