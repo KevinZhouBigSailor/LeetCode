@@ -1,6 +1,6 @@
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+package Facebook;
+
+import java.util.*;
 
 public class ValidNumber_65 {
     public boolean isNumber(String s) {
@@ -36,6 +36,7 @@ public class ValidNumber_65 {
 
         return numberSeen && numberAfterE;
     }
+
 
     // This is the DFA we have designed above
     private static final List<Map<String, Integer>> dfa = List.of(
