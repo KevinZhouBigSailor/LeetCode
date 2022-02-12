@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
 
-public class MinimumRemoveToMakeValidParentheses {
+public class MinimumRemoveToMakeValidParentheses_1249 {
     public String minRemoveToMakeValid(String s) {
         Set<Integer> indexesToRemove = new HashSet<>();
         Stack<Integer> stack = new Stack<>();
