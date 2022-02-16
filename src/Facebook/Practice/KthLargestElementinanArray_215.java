@@ -1,29 +1,20 @@
-package Facebook;
+package Facebook.Practice;
 
-import java.util.Random;
+import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 
-/**
- * Created by zzhou on 7/10/2017.
- * Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
-
- For example,
- Given [3,2,1,5,6,4] and k = 2, return 5.
-
- Note:
- You may assume k is always valid, 1 ≤ k ≤ array's length.
- */
 public class KthLargestElementinanArray_215 {
     public int findKthLargest(int[] nums, int k) {
         shuffle(nums);
         k = nums.length - k;
-        int lo = 0;
-        int hi = nums.length - 1;
-        while (lo < hi) {
-            final int j = partition(nums, lo, hi);
+        int low = 0;
+        int high = nums.length - 1;
+        while (low < high) {
+            final int j = partition(nums, low, high);
             if (j < k) {
-                lo = j + 1;
+                low = j + 1;
             } else if (j > k) {
-                hi = j - 1;
+                high = j - 1;
             } else {
                 break;
             }
@@ -31,39 +22,30 @@ public class KthLargestElementinanArray_215 {
         return nums[k];
     }
 
-    private int partition(int[] a, int lo, int hi) {
-
-        int i = lo;
-        int j = hi + 1;
+    private int partition(int[] a, int low, int high) {
+        int i = low;
+        int j = high + 1;
         while (true) {
-            while (i < hi && less(a[++i], a[lo])) ;
-            while (j > lo && less(a[lo], a[--j])) ;
-            if (i >= j) {
-                break;
-            }
-            exchange(a, i, j);
+            while (i < high && a[++i] < a[low]) ;
+            while (j > low && a[low] < a[--j]) ;
+            if (i >= j) break;
+            swap(a, i, j);
         }
-        exchange(a, lo, j);
+        swap(a, low, j);
         return j;
     }
 
-    private void shuffle(int a[]) {
-
-        final Random random = new Random();
-        for (int ind = 1; ind < a.length; ind++) {
-            final int r = random.nextInt(ind + 1);
-            exchange(a, ind, r);
+    private void shuffle(int[] a) {
+        for (int i = 1; i < a.length; i++) {
+            final int r = ThreadLocalRandom.current().nextInt(i + 1);
+            swap(a, i, r);
         }
     }
 
-    private void exchange(int[] a, int i, int j) {
-        final int tmp = a[i];
+    private void swap(int[] a, int i, int j) {
+        int temp = a[i];
         a[i] = a[j];
-        a[j] = tmp;
-    }
-
-    private boolean less(int v, int w) {
-        return v < w;
+        a[j] = temp;
     }
 
     class Solution {
