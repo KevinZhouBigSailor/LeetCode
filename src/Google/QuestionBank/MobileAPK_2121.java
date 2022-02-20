@@ -20,11 +20,11 @@ public class MobileAPK_2121 {
             return max != Integer.MAX_VALUE;
         }
 
-        public int getMin() {
+        public int getMinApk() {
             return min;
         }
 
-        public int getMax() {
+        public int getMaxApk() {
             return max;
         }
     }
@@ -33,10 +33,10 @@ public class MobileAPK_2121 {
         Set<Integer> breaks = new TreeSet<>();
         for (Range apk : apks) {
             if (apk.hasMinSdk()) {
-                breaks.add(apk.getMin() - 1);
+                breaks.add(apk.getMinApk() - 1);
             }
             if (apk.hasMaxSdk()) {
-                breaks.add(apk.getMax());
+                breaks.add(apk.getMaxApk());
             }
         }
         // Make sure always add the start and the end breaks
