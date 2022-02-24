@@ -42,7 +42,7 @@ public class RemoveWall_3129 {
         // mark as visited from src, even if it is a wall
         mark[r][c] = REACHABLE_FROM_DEST;
         for (int[] dir : directions) {
-            if (RunDFS_SRC(n, matrix, mark, r + dir[0], c + dir[1])) return true;
+            if (RunDFS_DEST(n, matrix, mark, r + dir[0], c + dir[1])) return true;
         }
         return false;
     }
