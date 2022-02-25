@@ -10,6 +10,7 @@ public class GoogleFinance_339 {
     Timestamp highCostTime = null;
     // PriorityQueue<StockPrice> minHeap = new PriorityQueue<>((a, b) -> a.price - b.price);
     final int maxSize = 5;
+    Timestamp lowerBoundHighCostTime = null;
 
     // TODO: Only keep track of `maxSize` of `StockPrice`
     public void addToCost(int price, Timestamp timestamp) {
