@@ -49,4 +49,7 @@ public class InsuranceAgent_2683 {
     }
 
     // TODO: Solution 3: Least Common Multiple
+    /**
+     * Lower bound:T_ave*M, Upper bound T_ave*(M+N)
+     */
 }
