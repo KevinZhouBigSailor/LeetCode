@@ -16,7 +16,7 @@ public class ADCensus_688 {
     interface ProtocolHelper {
         Node[] getNeighbors();
 
-        void send(Node dest, Message m);
+        void send(Node dest, List<String> modelList);
 
         void done();// Called by the initiator when traversal is over
     }
@@ -63,7 +63,7 @@ public class ADCensus_688 {
                 // 2. If you have received the trolley back not from the neighbor you have sent it to last time, just
                 // cross out the neighbor from your list and send the trolley back
                 nodesToProcess.remove(src);
-                helper.send(src, m);
+                helper.send(src, modelList);
                 return;
             }
             // 3. Cross out from your list the neighbor you've received the trolley from
@@ -71,10 +71,10 @@ public class ADCensus_688 {
             // 4. If there are still neighbors on your list, send the trolley to the first one otherwise, send the trolley
             // back to the parent
             if (!nodesToProcess.isEmpty()) {
-                helper.send(nodesToProcess.iterator().next(), m);
+                helper.send(nodesToProcess.iterator().next(), modelList);
             } else {
                 if (!isInitiator) {
-                    helper.send(parent, m);
+                    helper.send(parent, modelList);
                 } else {
                     helper.done();
                 }
